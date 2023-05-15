@@ -7,11 +7,12 @@ then
 fi
 
 qemu-system-x86_64 \
+  -k fr \
   -enable-kvm \
   -cpu host \
   -smp 4 \
   -m 8192M \
-  -bios /usr/share/edk2-ovmf/x64/OVMF.fd \
+  -bios /usr/share/ovmf/OVMF.fd \
   -device virtio-vga-gl \
   -display gtk,gl=on \
   -device virtio-net,netdev=net0 \

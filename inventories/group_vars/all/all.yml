@@ -9,6 +9,6 @@ unix_password: password
 machine_hostname: archlinux-workstation
 locale: en_US.UTF-8
 timezone: Europe/Paris
-# keymap: fr
+keymap: fr
 git_user_name: username
 git_user_email: email@domain.com
